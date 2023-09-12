@@ -1,14 +1,9 @@
-//Arrow function returning the product of two variables
-const prodouct = (a, b) => a * b;
-console.log(prodouct(2,4));
+const http = require('http');
 
-// Student Object
-const student = {
-    name: 'Ibrahim',
-    age: 23,
-    greet(){
-    console.log('Hi, My name is ' + this.name + ", my age is " + this.age);
-    }
-};  
+const server = http.createServer((req,res) => {
+    // console.log(req);
+    console.log("My Name is Ibrahim");
+});
 
-student.greet();
+// const port = 4000;
+    server.listen(4000);
