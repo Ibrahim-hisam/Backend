@@ -1,0 +1,117 @@
+/* Add some padding and background color to the body */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set a more readable font and line height for the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  background-color: #ffffff; /* Match the container background color */
+}
+
+/* Style the header */
+header {
+  background: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Style the container to center content */
+.container {
+  margin: auto;
+  max-width: 800px;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style form elements */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Style labels */
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Style input fields */
+.input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style the "Add Item" button */
+#add-item-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 2px solid transparent;
+  background: transparent;
+  color: #0294d2;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  margin-right: 10px;
+  border-color: #0729ec;
+}
+
+#add-item-btn:hover {
+  background: #057bca;
+  color: #ffffff;
+}
+
+/* Style the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+/* Style table headers */
+th {
+  background: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Style table rows */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Style table cells */
+td {
+  background: #f8f8f8;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+/* Style the edit and delete buttons */
+.edit-btn,
+.delete-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background: transparent;
+  color: #333;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  margin-right: 10px;
+}
+
+/* Style the edit button differently */
+.edit-btn:hover,
+.delete-btn:hover {
+  background: #333;
+  color: #fff;
+}
